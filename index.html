@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Personal Portfolio</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d3e9651a4b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.jpg" class="logo">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>WEB Designer</p>
+                    <h1>Hi, I'm <span>Phindile</span> Lukhele from South Africa</h1>
+                </div>
+            </div>
+        </div>
+        <!------------------About----------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio modi reprehenderit quas saepe reiciendis dolor totam doloremque ipsa eligendi culpa adipisci voluptatem nemo autem, sed delectus minus dicta voluptatibus.</p>
+                        <div class="tab-title">
+                           <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                           <p class="tab-links"onclick="opentab('experience')">Experience</p> 
+                           <p class="tab-links"onclick="opentab('education')">Education</p> 
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Developement</span><br>Web app Developement</li>
+                                <li><span>App Developement</span><br>Building Android/IOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>June 2023-Current</span><br>Apprenticeship at BBD Software</li>
+                            </ul>
+                        </div><div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>June 2023-Current</span><br>Learnership at Dynamic DNA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!------------------Services----------------------->
+       <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem velit neque dolorem debitis tempore possimus ad id tempora, repudiandae architecto corporis, quod voluptatum necessitatibus totam esse voluptatibus molestiae saepe laudantium?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem velit neque dolorem debitis tempore possimus ad id tempora, repudiandae architecto corporis, quod voluptatum necessitatibus totam esse voluptatibus molestiae saepe laudantium?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem velit neque dolorem debitis tempore possimus ad id tempora, repudiandae architecto corporis, quod voluptatum necessitatibus totam esse voluptatibus molestiae saepe laudantium?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+       </div>
+       <!------------------Portfolio----------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1> 
+                <div class="work-list">
+                    <div class="work">
+                        <img src="personal-portfolio-img/images/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you to the talented people around the world.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="personal-portfolio-img/images/work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The app connects you to the talented people around the world.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="personal-portfolio-img/images/work-3.png">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app connects you to the talented people around the world.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div> 
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!------------------Contact----------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                   <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p>Phindile.Lukhele@DynamicDNA.co.za</p>
+                        <p>0817777889</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/phindile.n.lukhele?mibextid=2JQ9oc"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/Itsjust_phindi_"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://instagram.com/itsjust_phindi?igshid=bzlsNGl0eG9mM3oy"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="www.linkedin.com/in/phindile-lukhele-6677a029b"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                   </div>
+                   <div class="contact-right">
+                    
+                   </div> 
+                </div>
+            </div>
+        </div>
+        <div class="w3-container">
+            <button class="w3-button w3-black w3-center" type="button" onclick="getlocation();">
+             Current Position
+         </button>
+         <div id="demo2" style="width: 80%; height: 150px"></div>
+         <script src="https://maps.google.com/maps/api/js?sensor=false">
+         </script>
+         <script type="text/javascript">
+             function getlocation() {
+                 if (navigator.geolocation) {
+                     navigator.geolocation.getCurrentPosition(showLoc, errHand);
+                 }
+             }
+             function showLoc(pos) {
+                 latt = pos.coords.latitude;
+                 long = pos.coords.longitude;
+                 var lattlong = new google.maps.LatLng(latt, long);
+                 var OPTions = {
+                     center: lattlong,
+                     zoom: 10,
+                     mapTypeControl: true,
+                     navigationControlOptions: {
+                         style: google.maps.NavigationControlStyle.SMALL,
+                     },
+                 };
+                 var mapg = new google.maps.Map(
+                     document.getElementById("demo2"),
+                     OPTions
+                 );
+                 var markerg = new google.maps.Marker({
+                     position: lattlong,
+                     map: mapg,
+                     title: "You are here!",
+                 });
+             }
+      
+             function errHand(err) {
+                 switch (err.code) {
+                     case err.PERMISSION_DENIED:
+                         result.innerHTML =
+                             "The application doesn't have the permission" +
+                             "to make use of location services";
+                         break;
+                     case err.POSITION_UNAVAILABLE:
+                         result.innerHTML = 
+                               "The location of the device is uncertain";
+                         break;
+                     case err.TIMEOUT:
+                         result.innerHTML = 
+                               "The request to get user location timed out";
+                         break;
+                     case err.UNKNOWN_ERROR:
+                         result.innerHTML =
+                             "Time to fetch location information exceeded" +
+                             "the maximum timeout interval";
+                         break;
+                 }
+             }
+         </script>
+         </div>
+        <script>
+           
+           var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+    </body>
+</html>
